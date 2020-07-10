@@ -1,0 +1,28 @@
+.side-bar
+  .side-header
+    .side-header__box
+      %p.side-header__box__name
+        ユーザーネーム
+      %ul.side-header__box__menu
+        %li.side-haeder__box__menu--new-group
+          = link_to "#" do
+            = icon('fas', 'edit' ,class: "btn")
+        %li.side-header__box__menu--edit-user
+          = link_to "#" do
+            = icon('fas', 'cog' ,class: "btn")
+  .side-groups
+    .side-group
+      .side-group__name
+        グループ名
+      .side-group__message
+        メッセージ
+    .side-group
+      .side-group__name
+        グループ名
+      .side-group__message
+        メッセージ
+    .side-group
+      .side-group__name
+        グループ名
+      .side-group__message
+        メッセージ
