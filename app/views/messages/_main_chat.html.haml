@@ -1,0 +1,36 @@
+.chat
+  .chat-header
+    .chat-header__box
+      .chat-header__box__name
+        チャット名
+      %ul.chat-header__box__list
+        Member：
+        %li.chat-header__box__member
+          kimura
+    %p= link_to 'Edit', "#", class: "chat-header__edit-btn"
+
+  .chat-main
+    .chat-list
+      .chat-list__box
+        %p.chat-list__box__info-user
+          kimura
+        %p.chat-list__box__info-date
+          2020年07月09日 19時30分
+      %p.chat-list__message
+        こんにちは
+    .chat-list
+      .chat-list__box
+        %p.chat-list__box__info-user
+          kimura
+        %p.chat-list__box__info-date
+          2020年07月09日 19時30分
+      %p.chat-list__message
+        こんにちは
+
+  .form
+    %form.new-message
+      %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+      %label{class: "input-box__image"}
+        = icon('far', 'image')
+        %input{type: 'file', class: "input-box__image__file"}
+    %input{type: "submit", value: "Send", class: "submit-btn"}
