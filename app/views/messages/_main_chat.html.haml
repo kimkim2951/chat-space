@@ -7,7 +7,7 @@
         Member：
         %li.chat-header__box__member
           kimura
-    %p= link_to 'Edit', "#", class: "chat-header__edit-btn"
+    %p= link_to 'Edit', edit_group_path(@group.id), class: "chat-header__edit-btn"
 
   .chat-main
     .chat-list
