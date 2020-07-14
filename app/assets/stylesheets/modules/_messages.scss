@@ -44,20 +44,23 @@
     .side-group {
       margin: 20px 0 40px;
       color: #ffffff;
-      text-decoration: none;
       &__name {
         font-size: 15px;
+        color: #ffffff;
+        text-decoration: none;
       }
       &__message {
         font-size: 11px;
         margin-top: 5px;
+        color: #ffffff;
+        text-decoration: none;
       }
     }
   }
 }
 
 .chat {
-  height: 100vh;
+  height: calc(100vh - 100px - 90px);
   width: calc(100vw - 300px);
   .chat-header {
     background-color: #ffffff;
@@ -126,25 +129,27 @@
     background-color: #d2d2d2;
     height: 90px;
     padding: 20px 40px;
-    display: flex;
-    .new-message {
-      position: relative;
-      width: 100%;
-      .input-box {
-        &__text{
-          border-style: none;
-          height: 50px;
-          width: 100%;
-          padding: 0 45px 0 15px;
-        }
-        &__image {
-          font-size: 25px;
-          position: absolute;
-          line-height: 50px;
-          right: 10px;
-          cursor: auto;
-          &__file {
-            display: none;
+    .form-box {
+      display: flex;
+      .new-message {
+        position: relative;
+        width: 100%;
+        .input-box {
+          &__text{
+            border-style: none;
+            height: 50px;
+            width: 100%;
+            padding: 0 45px 0 15px;
+          }
+          &__image {
+            font-size: 25px;
+            position: absolute;
+            line-height: 50px;
+            right: 10px;
+            cursor: auto;
+            &__file {
+              display: none;
+            }
           }
         }
       }
