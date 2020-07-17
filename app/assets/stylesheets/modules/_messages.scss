@@ -103,6 +103,7 @@
     height: calc(100vh - 190px);
     width: calc(100vw - 300px); 
     padding: 35px 40px 0;
+    overflow: scroll;
     .chat-list {
       margin-bottom: 46px;
       &__box {
