@@ -40,7 +40,7 @@ $(function(){
     };
   }
 
-  $('form').on('submit', function(e){
+  $('.form-updata').on('submit', function(e){
     e.preventDefault();
     let formData = new FormData(this);
     let url = $(this).attr('action');
@@ -48,7 +48,7 @@ $(function(){
       url: url,
       type: "POST",
       data: formData,  
-      dataType: 'json',
+      dataType: "json",
       processData: false,
       contentType: false
     })

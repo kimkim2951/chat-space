@@ -14,7 +14,7 @@
     = render @messages
 
   .form
-    = form_with model: [@group, @message], local: true do |f|
+    = form_with model: [@group, @message], class: "form-updata",local: true do |f|
       .form-box
         .new-message
           = f.text_field :content, class: 'input-box__text', placeholder: 'type a message'
