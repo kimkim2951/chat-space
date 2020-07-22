@@ -9,7 +9,7 @@ $(function(){
             </p>
             <p class="chat-list__box__info-date">
               ${message.created_at}
-            </p>
+
           </div>
           <div class="chat-list__message">
             <p class="Message__content">
@@ -21,7 +21,7 @@ $(function(){
       return html;
     } else {
       let html = 
-        `<div class="chat-list" data-massage-id=${message.id}>
+        `<div class="chat-list" data-message-id=${message.id}>
           <div class="chat-list__box">
             <p class="chat-list__box__info-user">
               ${message.user_name}
@@ -41,7 +41,7 @@ $(function(){
   }
 
   let reloadMessages = function() {
-    let last_message_id = $('.chat-list:last').data("massage-id") || 0;
+    let last_message_id = $('.chat-list:last').data("message-id") || 0;
     $.ajax({
       url: "api/messages",
       type: 'get',
