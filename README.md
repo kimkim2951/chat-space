@@ -3,8 +3,51 @@
 
 ## アプリ概要
 - 
-## コンセプト
-- 
+
+## :globe_with_meridians: 使用した技術、言語、ツールなど
+<a><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" width="70px;" /></a> <!-- rubyのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774548-731b2900-2fb4-11ea-99ba-565546c5acb4.png" height="60px;" /></a> <!-- RubyOnRailsのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774618-b32edb80-2fb5-11ea-9050-d5929a49e9a5.png" height="60px;" /></a> <!-- Hamlのロゴ -->
+<a><<img src="https://user-images.githubusercontent.com/39142850/71774644-115bbe80-2fb6-11ea-822c-568eabde5228.png" height="60px" /></a> <!-- Scssのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774768-d064a980-2fb7-11ea-88ad-4562c59470ae.png" height="65px;" /></a> <!-- jQueryのロゴ -->
+<a><img src="https://user-images.githubusercontent.com/39142850/71774786-37825e00-2fb8-11ea-8b90-bd652a58f1ad.png" height="60px;" /></a> <!-- AWSのロゴ -->
+### ■ 言語
+
+#### バックエンド
+* Ruby 2.6.5
+
+#### フロントエンド
+* Haml 5.1.2
+* Sass 3.7.4
+* jquery-rails 4.4.0
+
+### ■ フレームワーク
+* Ruby on Rails 6.0.3.2
+
+### ■ データベース
+* MySQL 0.5.3
+
+### ■ インフラ
+* AWS EC2
+* AWS S3
+
+### ■ デプロイ
+* capistranoによる自動デプロイ
+
+### ■ Webサーバー
+* nginx
+
+### ■ アプリケーションサーバー
+* unicorn
+
+## :globe_with_meridians: 実装内容
+- HAMLとSASSでのフロント実装
+- jQueryによるメッセージの非同期通信
+- jQueryによるインクリメンタルサーチ機能
+- devise (認証用gem)によるユーザー登録・ログイン機能
+- carrierwaveによる画像のアップロード
+- fogによるAWS S3への画像のアップロード
+- capistranoによる自動デプロイ
 
 ## :globe_with_meridians: インストール方法
 1.このリポジトリを複製<br>
