@@ -1,8 +1,29 @@
 # README
-<h1 align="center">chat-space</h1>
+<h1 align="center">チャットアプリ（chat-space）</h1>
 
-## アプリ概要
-- 
+## :globe_with_meridians: アプリ概要
+- chat-spaceはグループチャットアプリです。
+- 画像とテキストの投稿ができます。
+- グループに登録したメンバーのみがチャットを閲覧できます。
+
+![ChatSpace](https://gyazo.com/725d93c9a09f600d3b73124824b88470.png)
+
+## :globe_with_meridians: 使い方
+初めにユーザー登録をしてください。
+![ChatSpace - Gyazo](https://gyazo.com/f539e78bed2a165f5136f8b5d09d7e26.png)
+
+次に、チャットグループを作成してください。
+![キャプチャ動画](https://gyazo.com/13d7536c2c4f033ee000178eb0546de9.gif)
+
+既存のメンバーの名前がわかれば、そのメンバーを検索できます。
+グループにメンバーを追加すると、そのメンバーと自分だけがチャットを閲覧できます。
+![キャプチャ動画](https://gyazo.com/1d8516a99f4472ba895be17b7959482a.gif)
+
+画像またはテキストを投稿できます。
+![キャプチャ動画](https://gyazo.com/a5642f9659736c81588b072d9b9372a9.gif)
+
+グループメンバーのチャットは自動的に同期されます。
+![キャプチャ動画](https://gyazo.com/68d10bbaece880b07dd3e5e8fe990ecb.gif)
 
 ## :globe_with_meridians: 使用した技術、言語、ツールなど
 <a><img src="https://user-images.githubusercontent.com/39142850/71774533-1ddf1780-2fb4-11ea-8560-753bed352838.png" width="70px;" /></a> <!-- rubyのロゴ -->
