@@ -1,28 +1,30 @@
 # README
+<h1 align="center">chat-space</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリ概要
+- 
+## コンセプト
+- 
 
-Things you may want to cover:
+## :globe_with_meridians: インストール方法
+1.このリポジトリを複製<br>
+`$ git clone https://github.com/kuriken0410/chat-space`
 
-* Ruby version
+2.インストールしたリポジトリに移動<br>
+`$ cd chat-space`
 
-* System dependencies
+3.gemをアプリケーションに適用<br>
+`$ bundle install`<br>
 
-* Configuration
+4.データベースの作成&反映<br>
+`$ rails db:create`<br>
+`$ rails db:migrate`<br>
 
-* Database creation
+5.アプリケーションの起動<br>
+`$ rails s`<br>
+:point_right:`http://localhost:3000`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+## :page_facing_up: データベース設計
 ## messagesテーブル
 |Column|Type|Options|
 |------|----|-------|
