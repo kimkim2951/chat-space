@@ -72,7 +72,7 @@
 
 ## :globe_with_meridians: インストール方法
 1.このリポジトリを複製<br>
-`$ git clone https://github.com/kuriken0410/chat-space`
+`$ git clone https://github.com/kimkim2951/chat-space.git
 
 2.インストールしたリポジトリに移動<br>
 `$ cd chat-space`
